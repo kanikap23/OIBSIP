@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://kit.fontawesome.com/8de52be734.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="newlogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#About">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Kanika Pandey </span><br> From India.</h1>
+            </div>
+        </div>
+    </div>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="kk.jpeg" alt="photo">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>I am a third-year student at Graphic Era University in Dehradun pursuing a Bachlers in computer
+                        application.Web development, artificial intelligence, and machine learning are some of my
+                        interests.I have a strong interest in computer science.For the same reason, I'm searching for
+                        internships.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentabb('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentabb('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentabb('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Skills</span><br>C,C++,HTML,Java</li>
+                            <li><span>Database</span><br>MySQL</li>
+                            <li><span>Script</span><br>Python,CSS,JavaScript</li>
+                            <li><span>Tools</span><br>Visual Studio,Jupyter-lab,Pycharm</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internships</span><br>Completed a virtual internship at BHARAT INTERN as a ML intern</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span><br>BCA from Graphic Era University</li>
+                            <li><span>10+2</span><br>C.B.S.E</li>
+                            <li><span>10</span><br>C.B.S.E</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="Service">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis tempora recusandae aut
+                        distinctio
+                        debitis, suscipit delectus tenetur eius reprehenderit officiis facilis minima maiores ipsa
+                        tempore
+                        repudiandae excepturi ullam vel eaque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2> Frontend Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis tempora recusandae aut
+                        distinctio
+                        debitis, suscipit delectus tenetur eius reprehenderit officiis facilis minima maiores ipsa
+                        tempore
+                        repudiandae excepturi ullam vel eaque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-laptop"></i>
+                    <h2> Data Mining</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis tempora recusandae aut
+                        distinctio
+                        debitis, suscipit delectus tenetur eius reprehenderit officiis facilis minima maiores ipsa
+                        tempore
+                        repudiandae excepturi ullam vel eaque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work </h1>
+            <div class="work-list">
+                <div class="work">
+<img src="https://images.pexels.com/photos/267447/pexels-photo-267447.jpeg?auto=compress&cs=tinysrgb&w=600">                    <div class="layer">
+                        <h3>Anomaly Dection using Machine Learning</h3>
+                        <p>Detecting anomaly by using the interqurtile range method</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/10885109/pexels-photo-10885109.jpeg?auto=compress&cs=tinysrgb&w=600" alt="meachine learning">
+                    <div class="layer">
+                        <h3>Iris Flower classification using machine leaning algorithms</h3>
+                        <p>Model predicting different species of floweres on the basis of petal and sepal lengths.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=600" alt="meachine learning">
+                    <div class="layer">
+                        <h3>Web Automation and Web Scraping </h3>
+                        <p>Automation Testing using Python and Selenium to automate Ecommerce websites</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kanik02@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>99973xxxx0</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="my cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button:type="sumbit" class="btn btn2">sumbit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="contact-left"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentabb(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-180px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwga8no6bAjAp9YF5WTokRgGgAXgYiZ1ULzPLw-hdTDULGZEff7ukn5bpeZqOrmLtTa/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>

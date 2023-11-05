@@ -1,0 +1,56 @@
+
+        body {
+            
+            font-family: Arial, sans-serif;
+            background-image:url("https://media.istockphoto.com/id/1323823418/photo/low-angle-view-thermometer-on-blue-sky-with-sun-shining.jpg?b=1&s=612x612&w=0&k=20&c=rVd8SKVF0XVRQnTnwFsRAJ3aleAp30vHHQnltU92TrE="); 
+            background-size: cover;
+           
+        }
+      
+        h1 {
+            text-align: center;
+            color: white;
+        }
+      
+        .converter {
+            max-width: 380px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #7586f479;
+            border-radius: 5px;
+        }
+      
+        .input-group {
+            display: flex;
+            margin-bottom: 10px;
+        }
+      
+        .input-group label {
+            width: 70px;
+            font-weight: bold;
+        }
+      
+        .input-group input, .input-group select {
+            flex-grow: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+      
+        .convert-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #e3ed8489;
+            font-weight: bold;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+      
+        .result {
+            text-align: center;
+            font-weight: bold;
+        }
+     
