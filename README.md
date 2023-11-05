@@ -1,0 +1,2 @@
+I express my gratitude for providing me the opportunity to participate in an internship with Oasis Infobyte.The skills and experience received will remain invaluable ...It was a wonderful experience learning with Oasis Infobyte .There were 3 tasks given to me during my internship period 
+Task 1 was landing page where i created an interior landing page ,Task 2 was of creating portfolio website ,I learned so much in this particular task and lastly Task 3 was of temperature converter . Once again a wonderful experience working as a Oasis Infobyte intern.# OIBSIP
